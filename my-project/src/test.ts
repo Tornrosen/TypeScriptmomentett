@@ -66,3 +66,23 @@ function printUser (user:User) {
 
 printUser(user1);
 printUser(user2);
+
+function calculate(a:number, b:number) {
+    return a+b;
+    }
+    
+    calculate("a", "b");
+
+
+let myName = "Anna Danielsson";
+
+function stringOrNumber(para:string|number) {
+    if(typeof para==="number") {
+        console.log("Det här är ett nummer!")
+    }
+    else if(typeof para==="string") {
+        console.log("Det här är en textsträng!")
+    }
+}
+
+stringOrNumber(1);
